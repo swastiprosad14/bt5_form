@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag start -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Bootstrap:5">
+    <meta name="description" content="Learn HTML, CSS, BOOTSTRAP">
+    <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="Swasti Prosad Mondal">
+    <title>BT5 DEMO</title>
+     <!-- font links -->
+     <!-- css link -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label for="email_1" class="form-label">Email Address: </label>
+                <input type="email" name="email_1" id="email_1" class="form-control email_1" aria-describedby="help_email" required>
+                <div id="help_email" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="password_1" class="form-label">Password: </label>
+                <input type="password" name="password_1" id="password_1" class="form-control password_1" aria-describedby="passwordHelpBlock" required>
+                <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="upload" class="form-label">Choose file</label>
+                <input type="file" class="form-control" name="upload" id="upload"/>
+            </div>
+            
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+            <div class="mb-3">
+                <label for="text_area" class="form-label">Write About Yourself: </label>
+                <textarea name="text_area" id="text_area" class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" name="form_check" id="form_check" class="form-check-input" required>
+                <label for="form_check" class="form-check-label">Check me out!</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <!-- bootstrap js link -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
